@@ -1,7 +1,0 @@
-# Protect Backend
-backend/node_modules
-backend/.env
-
-# Protect Frontend
-frontend/node_modules
-frontend/.env
