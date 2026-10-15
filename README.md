@@ -244,16 +244,6 @@ A sensible order for taking the project closer to production:
 6. **Evaluation:** build a small set of PDFs with known questions and expected source passages; measure retrieval recall, answer correctness, latency and cost before claiming quality improvements.
 7. **Operations:** add structured request logs, request IDs, dependency-aware readiness checks and safe metrics without logging document contents or API secrets.
 
-## Resume-ready project summary
-
-**Document Analyst — Full-Stack RAG Application**
-
-- Built a full-stack PDF question-answering application using React, Node.js/Express, Google Gemini and Pinecone.
-- Implemented a RAG pipeline that extracts PDF text, creates 768-dimensional embeddings, retrieves the top three semantically similar passages, and supplies them as context for answer generation.
-- Deployed the Vite frontend on Vercel and Express API on Render, with environment-based configuration and browser-profile-scoped Pinecone namespaces.
-
-These bullets describe the current repository. Add performance, accuracy, user-count or cost metrics only after measuring them.
-
 ## License
 
 See [LICENSE](LICENSE).
